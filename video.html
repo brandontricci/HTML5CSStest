@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+<title>HTML5 Test</title>
+<link rel="stylesheet" href="normalize.css">
+<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<header>
+<nav>
+  <div id="nav">
+  <a href="index.html">/Home</a>
+    <a href="Video.html">/Video</a>
+  <a href="Form.html">/Form</a>
+  <a href="About.html">/About</a>
+</nav>
+</header>
+<body>
+
+<div class="parent_div">
+<div class="video" padding-bottom="2cm"> 
+<video id="sampleMovie" width="640" height="360" preload controls>
+  <source src="video/codecore.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+  <source src="video/codecore.webm" type='video/webm; codecs="vp8, vorbis"' />
+  <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
+    <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+    <param name="allowFullScreen" value="true" />
+    <param name="wmode" value="transparent" />
+    <param name="flashvars" value='config={"clip":{"url":"HTML5Sample_flv.flv","autoPlay":false,"autoBuffering":true}}' />
+  </object>
+</video>
+</div>
+
+<div id="height" style=padding-top:1cm>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed consequat magna. Vestibulum convallis, metus at elementum vulputate, velit nibh hendrerit elit, sit amet varius nisi nisl et nisi. Nulla libero odio, facilisis a orci in.</div>
+  <div id="height">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </div>
+</div>
+</div>
+
+<div class="row">
+    <div class="parent_div">
+        <img src="ruby.jpg">
+        <img src="cc.jpg">
+        <img src="ruby.jpg">
+        <img src="cc.jpg">
+        <img src="ruby.jpg">
+        <img src="cc.jpg">
+        <img src="ruby.jpg">
+        <div class="clearfix"></div>
+    </div>
+</body>

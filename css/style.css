@@ -1,0 +1,81 @@
+body {
+background:#cb0d0f;
+font-family:Arial, sans-serif;
+font-family:Open Sans;
+font-size: 25px;
+font-color: white;
+}
+
+.parent_div {
+    width:100%;
+    COLOR: white;
+    font-size:16px;
+}
+.sectionform {
+      padding-left:1cm;
+      font-color: #fff;
+      font-family:Open Sans;
+      COLOR: white
+
+}
+.sectionform2 {
+      padding-left:1cm;
+      font-family:Open Sans;
+}
+.nav {
+  float:left;
+  vertical-align: top;
+  padding-bottom: 2cm;
+  COLOR: white
+}
+
+.clearfix { clear:both; }
+
+.row {
+  display: inline-block;
+  clear:both;
+  float: left
+}
+
+.video  {
+  display: inline-block;
+  clear:both;
+  float: left; 
+  padding-top:1cm;
+  padding-left:1cm;
+  padding-right:1cm;
+  padding-bottom:1cm;
+}
+
+.row2 {
+  display: inline-block;
+  vertical-align: top;
+  clear:both;
+  float:right;
+}
+
+.height {
+    display: inline-block;
+    clear:both;
+    float: left; 
+    height: 360px; 
+    width: 250px;
+}
+
+A:link {
+ COLOR: white /*The color of the link*/
+}
+
+A:visited {
+ COLOR: white /*The color of the visited link*/
+}
+
+A:hover {
+ COLOR: white /*The color of the mouseover or 'hover' link*/
+}
+
+BODY { COLOR: white /*The color of all the other text within the body of the page*/
+{ 
+
+
+
